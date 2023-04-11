@@ -67,20 +67,28 @@ Após a implantação do projeto, podemos aplicar linguagem SQL, com o AWS Athen
 
 A construção de um pipline dados permitiu:
 
-1 - A utilização comercial das mensagens, e metadados das mensagens. Com essas informações em mãos será possível validar insights das equipes responsáveis pelo marketing, vendas, custumer success, etc.
+  1 - A utilização comercial das mensagens, e metadados das mensagens. Com essas informações em mãos será possível validar insights das equipes responsáveis pelo marketing, vendas, custumer success, etc.
 
-2 - Para implantar a arquitetura inicialmente apresentada, foram utilizadas várias tecnologias, dentre as quais:
+  2 - Para implantar a arquitetura inicialmente apresentada, foram utilizadas várias tecnologias, dentre as quais:
 
-BotFhater - nativo do Telegram;
+      Telegram:
 
-Python - para configuração do webhook, escrever as funções lambda, e, pré-visualizar o formato em que o webook do Telegram envia as mensagens;
+        - BotFhater - nativo do Telegram;
 
-Vários sistemas da AWS:
+      Python:
 
-S3
-Lambda
-Athena
-EventBridge
-API Gateway
-IAM.
+        - para configuração do webhook;
+        - escrever as funções lambda; e
+        - pré-visualizar o formato em que o webook do Telegram envia as mensagens;
+
+      Vários sistemas da AWS:
+
+        - S3;
+        - Lambda;
+        - Athena;
+        - EventBridge;
+        - API Gateway;
+        - IAM.
+
+
 3 - Em algumas horas, utilizando recursos de cloud computing, você ou sua empresa já podem dispor de um dos recursos mais valiosos atualmente, os dados.
